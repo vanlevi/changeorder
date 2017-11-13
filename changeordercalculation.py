@@ -8,4 +8,4 @@ CCIP = Subtotal_1 * 0.07
 Subtotal_2 = Subtotal_1 + CCIP
 Fee = Subtotal_2 * 0.05
 Total_Cost = Subtotal_2 + Fee
-print("Total Cost = ", Total_Cost)
+print("Total Cost = ${:,.2f}".format(Total_Cost))
